@@ -32,20 +32,12 @@ Here’s how the live fuzzy search works:
 
 You can install the plugin using either of the following methods:
 
-### Option 1: Install via Publii UI (Recommended)
+### Install via Publii UI (Recommended)
 
-1. Download the plugin ZIP from this GitHub repository.
+1. Download the plugin ZIP from this GitHub repository under Releases.
 2. Open the **Publii** app and go to **Plugins** → **Add new**.
 3. Select the downloaded ZIP file.
 4. Activate the plugin once installed.
-
-### Option 2: Manual Installation
-
-1. Download the plugin ZIP from this GitHub repository.
-2. **Unzip** the file.
-3. Copy the entire `static-custom-search` folder into your Publii site's `input/plugins` directory.
-4. Open the **Publii** app, go to the **Plugins** section, and enable **Static Custom Search**.
-
 
 ## Requirements
 
