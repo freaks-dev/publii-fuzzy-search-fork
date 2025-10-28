@@ -1,9 +1,9 @@
 {
-  "name": "Static Fuzzy Search (Fuzzy + Index)",
+  "name": "Static Fuzzy Search",
   "description": "Combined plugin: generates a customizable search index at build time and provides static fuzzy search using Fuse.js. Backwards-compatible with feed.json. This plugin provides website owners with an easy way to add a fuzzy search functionality to their site. By leveraging the feed.json and fuse.js javascript library, this plugin offers a fast and reliable search experience for users, without the need for a dynamic search engine. With this plugin, site owners can quickly and easily improve the user experience and help visitors find the information they need.",
   "license": "GPL-3.0",
   "author": "Prashant KP & freaks-dev",
-  "version": "2.1",
+  "version": "2.1.2",
   "scope": "site",
   "minimumPubliiVersion": "0.44.0",
   "usePluginSettingsView": false,

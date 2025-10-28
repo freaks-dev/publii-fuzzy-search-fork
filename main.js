@@ -1,4 +1,4 @@
-class StaticSearchPlugin {
+class StaticFuzzySearchPlugin {
   constructor(API, name, config) {
     this.API = API;
     this.name = name;
@@ -144,7 +144,7 @@ class StaticSearchPlugin {
     const dataUrlForScript = useFeed ? feedUrl : `${indexFileName}`;
 
     // The script references the plugin's bundled fuse.js via the plugin media path
-    const fuseScriptUrl = `${rendererInstance.siteConfig.domain}/media/plugins/staticSearch/fuse.js`;
+    const fuseScriptUrl = `${rendererInstance.siteConfig.domain}/media/plugins/staticFuzzySearch/fuse.js`;
 
     // Render HTML + script
     const output = `
@@ -329,4 +329,4 @@ class StaticSearchPlugin {
   }
 }
 
-module.exports = StaticSearchPlugin;
+module.exports = StaticFuzzySearchPlugin;
